@@ -1,12 +1,12 @@
 Credit Risk Analysis using Exploratory Data Analysis (EDA)
 ==========================================================
-Project Overview
+Project Overview:
 In the consumer finance industry, lending decisions involve significant risk, especially when applicants have limited or no credit history.  
 This project uses Exploratory Data Analysis (EDA) to identify patterns and key factors that influence loan default, helping financial institutions make better lending decisions.
 
 The objective is to understand how customer attributes and loan characteristics differ between defaulters and non-defaulters, and to extract actionable business insights that can reduce financial risk.
 
-Business Problem
+Business Problem:
 Loan-providing companies face two major risks:
 - Rejecting applicants who are capable of repaying loans (loss of business)
 - Approving loans for applicants likely to default (financial loss)
@@ -23,10 +23,10 @@ The analysis is based on the following datasets:
 - previous_application.csv – Historical loan application outcomes
 - columns_description.csv – Data dictionary describing each variable
 
-Dataset Availability
+Dataset Availability:
 Due to distribution restrictions and file size limitations, the datasets are not included in this repository.
 
-Tools & Technologies
+Tools & Technologies:
 - Python
 - Pandas
 - NumPy
@@ -56,24 +56,24 @@ The project follows a structured EDA workflow:
 8. Business Insights & Recommendations
    - Translating analytical findings into actionable insights
 
-Key Insights
+Key Insights:
 - Applicants with lower income and higher loan amounts show higher default risk
 - Employment stability and education level significantly influence repayment behaviour
 - Certain financial attributes behave differently for defaulters vs non-defaulters
 - Default events are highly imbalanced, requiring careful interpretation of patterns
 
-Business Recommendations
+Business Recommendations:
 - Apply stricter checks for high loan-to-income ratios
 - Adjust interest rates or loan limits for higher-risk profiles
 - Incorporate key driver variables into credit scoring and risk models
 
-How to Run the Project
+How to Run the Project:
 1. Clone the repository
 2. Download the datasets and place them inside the `data/` folder
 3. Open `credit_risk_analysis.ipynb`
 4. Run all cells sequentially
 
-Key Learnings
+Key Learnings:
 - Applying EDA in a real-world financial risk scenario
 - Handling missing data and imbalanced classes
 - Translating analytical results into business decisions
