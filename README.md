@@ -79,6 +79,10 @@ Key Learnings:
 - Translating analytical results into business decisions
 - Communicating insights through visualisations and presentations
 
+## Live Project Report
+
+👉 https://padmasaivayigandla.github.io/credit-risk-analysis-eda/
+
 Author
 
 Padma Sai Vayigandla
